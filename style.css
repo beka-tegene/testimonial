@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+}
+.container{
+    width: 500px;
+    background-color: goldenrod;
+    height: 300px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 9px #00000090;
+    position: relative;
+}
+.container .userPic{
+    border-radius: 50%;
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 1px 1px 9px;
+}
+.container .text{
+    margin: 20% 15px 0;
+    color: white;
+    text-align: left;
+}
+.container .name{
+    margin: 5% 35px;
+    color: midnightblue;
+    text-align: end;
+}
